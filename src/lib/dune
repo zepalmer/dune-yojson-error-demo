@@ -1,0 +1,13 @@
+(library
+  (name lib)
+  (libraries
+    ppx_deriving_yojson
+    yojson
+  )
+  (preprocess
+    (pps
+      ppx_deriving_yojson
+    )
+  )
+  (flags (:standard -w -39))
+)

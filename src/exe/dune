@@ -1,0 +1,13 @@
+(executable
+  (name main)
+  (libraries
+    lib
+    ppx_deriving_yojson
+    yojson
+  )
+  (preprocess
+    (pps
+      ppx_deriving.std
+    )
+  )
+)
