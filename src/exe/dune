@@ -2,12 +2,7 @@
   (name main)
   (libraries
     lib
-    ppx_deriving_yojson
+    ppx_deriving_yojson.runtime
     yojson
-  )
-  (preprocess
-    (pps
-      ppx_deriving.std
-    )
   )
 )
